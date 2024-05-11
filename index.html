@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact me</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Siddharth Singh</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Currently, I am pursuing B.Tech from Dr B R Ambedkar National Institute to Technology Jalandhar</p>
+            <div class="social-media">
+                <a href="https://github.com/sidsingh2223" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/siddharth-singh-1b4462278/ " target="_blank"><i class='bx bxl-linkedin' ></i></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <!-- <a href="# "></a> -->
+            </div>
+            <a href="#" id="DownloadCV" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/home-image.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home-image.png" alt="">
+        </div>
+
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Forntend Developer!</h3>
+            <p>Hello there! I'm Siddharth Singh, a passionate front-end developer currently pursuing my Bachelor of Technology degree from NIT Jalandhar. I find joy in crafting engaging and intuitive user experiences through code. My journey into the world of web development began with a curiosity to understand how things work behind the screen, and it has since evolved into a fulfilling pursuit. I am excited about the possibilities that lie ahead and am eager to leverage my skills and knowledge to make meaningful contributions to the world of web development. Let's connect and embark on this exciting journey together!</p>
+            <a href="#" class="btn">Read Me</a>
+        </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p>An aspiring web developer with a solid grasp of HTML. My journey into web development ignited with the realization of HTML's power to structure content and create the backbone of captivating websites. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>CSS</h3>
+                <p>A web enthusiast with a solid foundation in CSS. My journey in web development took a significant leap forward as I delved into the world of cascading style sheets, realizing its transformative ability to breathe life into HTML elements and elevate user interfaces.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-django' ></i>
+                <h3>Django</h3>
+                <p>A burgeoning web developer with a keen interest in Django. My introduction to web development took a significant turn as I delved into the Django framework, captivated by its elegance and efficiency in building dynamic web applications.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <a href="https://invito.onrender.com/" target="_blank" class="photo-link">
+                    <img src="images/invito.png" alt="Your Photo">
+                    <div class="overlay"></div>
+                    <i class='bx bx-link-external' ></i>
+ 
+                  </a>
+            </div>
+            <div class="portfolio-layer">
+                
+                
+                    <h1>Project: Invito</h1>
+                    <div class="description">
+                      <h2>Description:</h2>
+                      <p>Invito, crafted by me, is a digital oasis designed to facilitate authentic connections. It elegantly bridges individuals, making networking effortless and enriching.</p>
+                    </div>
+                    <div class="features">
+                      <h2>Key Features:</h2>
+                      <ul>
+                        <li><strong>Seamless Networking:</strong> Invito simplifies connection-building, offering personalized profiles to showcase skills and interests.</li>
+                        <!-- <li><strong>Smart Recommendations:</strong> Advanced algorithms suggest relevant connections, ensuring every interaction is purposeful.</li> -->
+                        <!-- <li><strong>Event Integration:</strong> Seamlessly RSVP to tailored events, expanding horizons beyond virtual boundaries.</li> -->
+                        <li><strong>Privacy Focus:</strong> Invito prioritizes security, ensuring user data and communications remain confidential.</li>
+                      </ul>
+                    </div>
+                      
+                
+                
+                </div>
+            
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+    
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    
+</body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="script.js"></script>
+</html>
