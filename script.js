@@ -51,13 +51,13 @@ ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 
-
+// =============resume download==============
 document.addEventListener('DOMContentLoaded', function () {
     const downloadButton = document.getElementById('DownloadCV');
 
     downloadButton.addEventListener('click', function () {
         // Replace 'path_to_your_cv_file.pdf' with the actual path to your CV file
-        const cvFilePath = 'images/SiddharthSinghResume.pdf';
+        const cvFilePath = 'Resume/SiddharthSinghResume.pdf';
 
         // Create a temporary link element
         const link = document.createElement('a');
