@@ -123,16 +123,18 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#" id="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="9a30f12d-39cf-4820-94d1-a4b5ab65a61c">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" class="contact-inputs" placeholder="Full Name" required>
+                <input type="email" name="Email" class="contact-inputs"  placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="Phone Number" class="contact-inputs"  placeholder="Mobile Number" required>
+                <input type="text" name="Subject" class="contact-inputs"  placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea  name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
 
